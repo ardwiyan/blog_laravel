@@ -14,14 +14,14 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="{{ asset('public/frontend/css/mystyle.css') }}">
 
-    <title>Komputer 101</title>
+    <title>Computer 101</title>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Computer101</a>
+            <a class="navbar-brand" href="#">Computer 101</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,13 +55,13 @@
                         </a>
                     </div>
                     <div class="col-lg">
-                        <a href="#"><img src="{{ asset('public/frontend/img/hires.png') }}" alt="hires" class="float-left">
+                        <a href="#"><img src="{{ asset('public/frontend/img/maintenance1.png') }}" alt="hires" class="float-left">
                             <h4>Maintenance</h4>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </a>
                     </div>
                     <div class="col-lg">
-                        <a href="#"><img src="{{ asset('public/frontend/img/security.png') }}" alt="security" class="float-left">
+                        <a href="#"><img src="{{ asset('public/frontend/img/troubleshooting2.png') }}" alt="security" class="float-left">
                             <h4>Troubleshooting</h4>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </a>
